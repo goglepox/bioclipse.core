@@ -4,7 +4,7 @@
 <product name="Bioclipse" uid="net.bioclipse.product" id="net.bioclipse.ui.product" application="net.bioclipse.ui.application" version="2.4.0.20100709" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/icons/logo/abot_img.gif"/>
+      <image path="/net.bioclipse.platform_feature/icons/logo/abot_img.gif"/>
       <text>
          %productBlurb
       </text>
@@ -19,9 +19,10 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Dbioclipse.defaultLogDir=&quot;Library/Logs/Bioclipse/&quot;</vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/icons/logo/logo_16_trans.gif" i32="/icons/logo/logo_32_trans.gif" i48="/icons/logo/logo_48_trans.gif" i64="/icons/logo/logo_64_trans.gif" i128="/icons/logo/logo_128_trans.gif"/>
+   <windowImages i16="/net.bioclipse.platform_feature/icons/logo/logo_16_trans.gif" i32="/net.bioclipse.platform_feature/icons/logo/logo_32_trans.gif" i48="/net.bioclipse.platform_feature/icons/logo/logo_48_trans.gif" i64="/net.bioclipse.platform_feature/icons/logo/logo_64_trans.gif" i128="/net.bioclipse.platform_feature/icons/logo/logo_128_trans.gif"/>
 
    <splash
+      location="net.bioclipse.ui"
       startupProgressRect="5,290,445,15"
       startupMessageRect="7,252,445,20"
       startupForegroundColor="C7E1E6" />
